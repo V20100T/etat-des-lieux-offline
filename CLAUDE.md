@@ -12,7 +12,9 @@ Tout le contenu est **en français**.
 ## Positionnement et messages
 - Cibles : petites agences immobilières, bailleurs particuliers, loueurs Airbnb, petites conciergeries.
 - Points forts : hors-ligne, données sur le téléphone (pas de compte ni de cloud), payé une fois, comparaison entrée/sortie automatique.
-- Prix : Particulier 5 €/an, Particulier à vie 50 € (avec `**` : tant que GitHub Pages fournit l'hébergement gratuit ; l'app installée continue de marcher), Pro 5 €/mois.
+- Prix : Particulier 5 €/an, Particulier à vie 50 € (avec `**` : « tant que le service d'hébergement qui la diffuse est fourni » ; l'app installée continue de marcher), Pro 5 €/mois.
+- **Sur le site, ne jamais nommer GitHub ni dire que l'hébergement est gratuit** : écrire « service d'hébergement ».
+- **Message n°1 à marteler, en langage simple** : aucune donnée n'est envoyée sur un serveur, tout reste dans le téléphone. Il apparaît dans l'accroche, dans la section « Vos données » et dans la FAQ.
 - Signature : présentée honnêtement comme une **signature électronique simple, non certifiée**, dans une démarche de bonne foi, renforcée par l'accusé de réception « Bien reçu, OK » des deux parties. Rappeler le délai légal de 10 jours pour compléter l'EDL d'entrée (art. 3-2, loi 89-462). Ne jamais surpromettre sur la valeur juridique.
 - Le comparatif avec les « applications classiques » reste prudent et vérifiable (publicité comparative) : ne pas citer de concurrents ni affirmer de faits invérifiables.
 - Livraison : instance de l'app personnalisée, déployée à la main par le vendeur, lien envoyé sous 24 h ouvrées.
