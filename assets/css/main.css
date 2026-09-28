@@ -169,6 +169,37 @@ p { margin: 0 0 1em; }
 .e-ABS, .pastille.e-ABS, button.actif.e-ABS { background: var(--e-ABS); }
 .pastille { display: inline-block; min-width: 2.1em; text-align: center; color: #fff; font-weight: 800; font-size: .78em; padding: .05em .35em; border-radius: 4px; }
 
+.promesse {
+  display: flex; gap: .8rem; align-items: flex-start; max-width: 36em; margin: 0 0 .5rem;
+  padding: 1rem 1.2rem; border-radius: 14px; font-size: 1.05rem;
+  background: var(--vert-clair); border: 1px solid color-mix(in srgb, var(--vert) 40%, transparent); color: var(--texte);
+}
+.promesse .icone { width: 1.6em; height: 1.6em; color: var(--vert); margin-top: .1em; }
+
+/* ---------- Section « vos données » ---------- */
+.section-donnees { background: linear-gradient(180deg, var(--vert-clair), var(--fond)); }
+.schema-donnees { display: grid; grid-template-columns: 1fr 1.2fr 1fr; align-items: center; gap: 1rem; max-width: 760px; margin: 0 auto 3rem; }
+.schema-bloc { display: grid; justify-items: center; gap: .3rem; text-align: center; padding: 1.4rem 1rem; border-radius: var(--rayon); background: var(--carte); border: 2px solid var(--bord); box-shadow: var(--ombre); }
+.schema-bloc .icone { width: 44px; height: 44px; }
+.schema-bloc small { color: var(--texte-doux); }
+.schema-ok { border-color: var(--vert); }
+.schema-ok .icone { color: var(--vert); }
+.schema-non { opacity: .75; border-style: dashed; }
+.schema-non .icone { color: var(--texte-doux); }
+.schema-fleche { display: flex; align-items: center; }
+.schema-fleche span { flex: 1; border-top: 3px dashed var(--bord); }
+.schema-fleche b { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--rouge); color: #fff; box-shadow: 0 0 0 8px color-mix(in srgb, var(--rouge) 18%, transparent); }
+.schema-fleche b .icone { width: 26px; height: 26px; stroke-width: 3; }
+.donnees-grille { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.donnees-grille h3 { font-size: 1.1rem; }
+.donnees-grille p { color: var(--texte-doux); margin: 0; }
+@media (max-width: 800px) {
+  .donnees-grille { grid-template-columns: 1fr; }
+  .schema-donnees { grid-template-columns: 1fr; justify-items: stretch; }
+  .schema-fleche { flex-direction: column; height: 90px; }
+  .schema-fleche span { border-top: 0; border-left: 3px dashed var(--bord); }
+}
+
 /* ---------- Chiffres ---------- */
 .chiffres { border-block: 1px solid var(--bord); background: var(--fond-teinte); }
 .chiffres-grille { display: grid; grid-template-columns: repeat(4, 1fr); text-align: center; }

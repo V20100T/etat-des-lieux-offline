@@ -14,13 +14,13 @@
     Non. Une fois installée, l'application fonctionne **entièrement hors-ligne** : saisie, photos, signatures et rapport. Seul l'envoi par e-mail attend le retour du réseau.
 - q: Où sont stockées mes données ?
   r: |
-    Uniquement **sur votre téléphone**. Nous n'avons ni serveur, ni compte, ni base de données : nous ne voyons jamais vos logements, vos locataires ni vos photos. Pensez à faire régulièrement une **sauvegarde complète** (un fichier que vous rangez où vous voulez).
+    Uniquement **dans votre téléphone**. L'application **n'envoie rien sur Internet** : aucun serveur, aucun « cloud », aucun compte, aucune base de données chez nous. Nous ne voyons jamais vos logements, vos locataires ni vos photos. Le seul moment où une donnée sort de votre téléphone, c'est quand **vous** choisissez d'envoyer le rapport par e-mail. Pensez à faire régulièrement une **sauvegarde complète** (un fichier que vous rangez où vous voulez).
 - q: Et si je change de téléphone ?
   r: |
     Faites une sauvegarde complète sur l'ancien téléphone, puis importez-la sur le nouveau. Tout est repris : logements, états des lieux, photos, signatures.
 - q: Que veut dire « à vie ** » ?
   r: |
-    L'offre à vie vous donne accès à l'application et à ses mises à jour **tant que le service d'hébergement gratuit qui la diffuse (GitHub Pages) est fourni**. Même dans le cas contraire, l'application déjà installée sur votre téléphone **continue de fonctionner hors-ligne**, et vos exports (PDF, ZIP, sauvegarde) restent lisibles.
+    L'offre à vie vous donne accès à l'application et à ses mises à jour **tant que le service d'hébergement qui la diffuse est fourni**. Même dans le cas contraire, l'application déjà installée sur votre téléphone **continue de fonctionner hors-ligne**, et vos exports (PDF, ZIP, sauvegarde) restent lisibles.
 - q: Est-ce adapté à la location courte durée (Airbnb) ?
   r: |
     Oui. Un état des lieux rapide avec photos horodatées à chaque arrivée et départ vous donne des preuves solides en cas de dégâts, à transmettre à la plateforme ou au voyageur.

@@ -7,6 +7,7 @@
     <button class="menu-bouton" aria-expanded="false" aria-controls="nav-principale" aria-label="Menu">{{ partial "icone.html" "menu" }}</button>
     <nav id="nav-principale" class="nav">
       {{ $base := cond .IsHome "" ("" | relURL) }}
+      <a href="{{ $base }}#donnees">Vos données</a>
       <a href="{{ $base }}#atouts">Points forts</a>
       <a href="{{ $base }}#comment">Comment ça marche</a>
       <a href="{{ $base }}#pour-qui">Pour qui</a>

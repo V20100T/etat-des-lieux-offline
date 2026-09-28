@@ -22,8 +22,8 @@ paginate = 9
 [params]
   # Nom affiché partout (logo, titres, pied de page)
   marque = "État des lieux Offline"
-  slogan = "L'état des lieux dans votre poche. Sans compte, sans cloud, même sans réseau."
-  description = "Application d'état des lieux d'entrée et de sortie sur téléphone : fonctionne hors-ligne, photos horodatées, comparaison entrée/sortie, signature, rapport PDF. Payée une fois, vos données restent chez vous."
+  slogan = "L'état des lieux dans votre poche. Aucune donnée envoyée sur un serveur, même sans réseau."
+  description = "Application d'état des lieux d'entrée et de sortie sur téléphone : fonctionne hors-ligne, photos horodatées, comparaison entrée/sortie, signature, rapport PDF. Vos données ne sont envoyées sur aucun serveur : elles restent dans votre téléphone."
 
   # Contact (à compléter)
   email = "contact@exemple.fr"

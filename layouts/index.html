@@ -5,9 +5,10 @@
 <section class="hero">
   <div class="conteneur hero-grille">
     <div class="hero-texte">
-      <p class="surtitre"><span>Hors-ligne</span><span>Sans compte</span><span>Sans cloud</span></p>
+      <p class="surtitre"><span>Hors-ligne</span><span>Aucune donnée envoyée</span><span>Sans compte</span></p>
       <h1>L'état des lieux <em>dans votre poche</em>, même sans réseau.</h1>
-      <p class="chapo">Entrée, sortie, photos, signatures et rapport PDF, directement sur votre téléphone. La sortie se compare toute seule à l'entrée. <strong>Payé une fois, vos données restent chez vous.</strong></p>
+      <p class="chapo">Entrée, sortie, photos, signatures et rapport PDF, directement sur votre téléphone. La sortie se compare toute seule à l'entrée.</p>
+      <p class="promesse">{{ partial "icone.html" "lock" }}<span><strong>Vos données ne sont envoyées sur aucun serveur.</strong> Logements, locataires, photos et signatures restent <strong>uniquement dans votre téléphone</strong>. Personne d'autre que vous n'y a accès, pas même nous.</span></p>
       <div class="actions">
         <a class="bouton bouton-grand" href="#tarifs">Voir les tarifs {{ partial "icone.html" "arrow" }}</a>
         {{ with $p.demoUrl }}<a class="bouton bouton-grand bouton-secondaire" href="{{ . }}" target="_blank" rel="noopener">Essayer la démo</a>
@@ -27,9 +28,28 @@
 <section class="chiffres">
   <div class="conteneur chiffres-grille">
     <div><strong>0</strong><span>réseau nécessaire sur place</span></div>
-    <div><strong>0</strong><span>compte, serveur ou cloud</span></div>
+    <div><strong>0</strong><span>donnée envoyée sur Internet</span></div>
     <div><strong>1 tap</strong><span>par élément inspecté</span></div>
     <div><strong>1 fois</strong><span>payé, pas d'abonnement obligatoire</span></div>
+  </div>
+</section>
+
+<!-- ===== Données : rien n'est envoyé ===== -->
+<section id="donnees" class="section section-donnees">
+  <div class="conteneur">
+    <p class="section-surtitre">Vos données</p>
+    <h2>Rien ne part sur Internet. Tout reste dans votre téléphone.</h2>
+    <p class="section-intro">La plupart des applications envoient vos états des lieux (noms, adresses, photos, signatures de vos locataires) sur leurs serveurs, quelque part « dans le cloud ». <strong>Pas la nôtre.</strong></p>
+    <div class="schema-donnees" aria-hidden="true">
+      <div class="schema-bloc schema-ok">{{ partial "icone.html" "phone" }}<strong>Votre téléphone</strong><small>Toutes vos données sont ici</small></div>
+      <div class="schema-fleche"><span></span><b>{{ partial "icone.html" "x" }}</b><span></span></div>
+      <div class="schema-bloc schema-non">{{ partial "icone.html" "building" }}<strong>Serveur, « cloud »</strong><small>Aucune donnée envoyée</small></div>
+    </div>
+    <div class="donnees-grille">
+      <div><h3>📱 Enregistré dans le téléphone</h3><p>Chaque logement, chaque photo, chaque signature est enregistré dans la mémoire de votre téléphone, comme vos photos de vacances.</p></div>
+      <div><h3>🚫 Aucun serveur, aucun compte</h3><p>Pas d'inscription, pas de mot de passe, pas de base de données chez nous. Nous ne pouvons pas voir vos données, même si nous le voulions.</p></div>
+      <div><h3>✉️ Vous décidez de ce qui sort</h3><p>Le seul moment où un document quitte votre téléphone, c'est quand <strong>vous</strong> envoyez le rapport PDF, depuis votre propre messagerie.</p></div>
+    </div>
   </div>
 </section>
 
@@ -200,7 +220,7 @@
       <div class="comparatif-ligne comparatif-tete" role="row"><span role="columnheader"></span><span role="columnheader">Applications classiques</span><span role="columnheader">{{ $p.marque }}</span></div>
       <div class="comparatif-ligne" role="row"><span role="cell">Fonctionne sans réseau</span><span role="cell" class="non">Selon l'application</span><span role="cell" class="oui">✓ Toujours</span></div>
       <div class="comparatif-ligne" role="row"><span role="cell">Compte à créer</span><span role="cell" class="non">Le plus souvent</span><span role="cell" class="oui">✓ Aucun</span></div>
-      <div class="comparatif-ligne" role="row"><span role="cell">Données de vos locataires</span><span role="cell" class="non">Souvent dans leur cloud</span><span role="cell" class="oui">✓ Sur votre téléphone</span></div>
+      <div class="comparatif-ligne" role="row"><span role="cell">Où vont vos données ?</span><span role="cell" class="non">Souvent envoyées sur leurs serveurs</span><span role="cell" class="oui">✓ Nulle part : elles restent dans votre téléphone</span></div>
       <div class="comparatif-ligne" role="row"><span role="cell">Prix</span><span role="cell" class="non">Souvent à l'acte ou par abonnement</span><span role="cell" class="oui">✓ 50 € une fois**, ou 5 €/an</span></div>
       <div class="comparatif-ligne" role="row"><span role="cell">Import de vos fichiers Excel</span><span role="cell" class="non">Selon l'application</span><span role="cell" class="oui">✓ Oui</span></div>
       <div class="comparatif-ligne" role="row"><span role="cell">Comparaison entrée / sortie</span><span role="cell" class="non">Souvent</span><span role="cell" class="oui">✓ Automatique</span></div>
@@ -234,7 +254,7 @@
       </article>
       {{ end }}
     </div>
-    <p class="note-bas">** <strong>À vie</strong> : accès à l'application et à ses mises à jour tant que le service d'hébergement gratuit qui la diffuse (GitHub Pages) est fourni. Dans tous les cas, l'application déjà installée continue de fonctionner hors-ligne et vos exports restent lisibles. Prix TTC. Paiement sécurisé, facture envoyée automatiquement.</p>
+    <p class="note-bas">** <strong>À vie</strong> : accès à l'application et à ses mises à jour tant que le service d'hébergement qui la diffuse est fourni. Dans tous les cas, l'application déjà installée continue de fonctionner hors-ligne et vos exports restent lisibles. Prix TTC. Paiement sécurisé, facture envoyée automatiquement.</p>
   </div>
 </section>
 

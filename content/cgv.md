@@ -17,7 +17,7 @@ Les présentes conditions régissent l'accès à l'application **État des lieux
 | Particulier à vie | 50 € | Paiement unique ** |
 | Pro | 5 € | Par mois, sans engagement, résiliable à tout moment |
 
-** **À vie** : accès à l'Application et à ses mises à jour **tant que le service d'hébergement gratuit qui la diffuse (GitHub Pages) est fourni** par son opérateur. Si ce service cessait, l'Application déjà installée continuerait de fonctionner hors-ligne et les exports resteraient lisibles. L'Éditeur s'efforcera de proposer une solution de remplacement.
+** **À vie** : accès à l'Application et à ses mises à jour **tant que le service d'hébergement qui la diffuse est fourni** par son opérateur. Si ce service cessait, l'Application déjà installée continuerait de fonctionner hors-ligne et les exports resteraient lisibles. L'Éditeur s'efforcera de proposer une solution de remplacement.
 
 ## 3. Commande et paiement
 

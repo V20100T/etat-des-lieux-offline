@@ -4,8 +4,8 @@
   texte: Cave, sous-sol, immeuble ancien, campagne… L'application tourne entièrement sur le téléphone. Pas de 4G ? Aucun problème.
   vedette: true
 - icone: lock
-  titre: Vos données restent chez vous
-  texte: Aucun compte, aucun cloud, aucun serveur. Les informations de vos locataires ne quittent pas votre téléphone. Idéal pour le RGPD.
+  titre: Rien n'est envoyé sur Internet
+  texte: Vos données ne partent sur aucun serveur, aucun « cloud ». Noms des locataires, photos, signatures restent dans votre téléphone. Nous-mêmes n'y avons pas accès. Idéal pour le RGPD.
   vedette: true
 - icone: tag
   titre: 50 € une fois, ou 5 € par an

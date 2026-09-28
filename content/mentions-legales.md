@@ -17,7 +17,7 @@ description: "Mentions légales du site État des lieux Offline."
 
 ## Hébergement
 
-Le site et l'application sont hébergés par **GitHub, Inc.** (service GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. <https://github.com>
+[À COMPLÉTER — nom, adresse et téléphone du prestataire d'hébergement (mention obligatoire, art. 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique)]
 
 ## Paiement
 
