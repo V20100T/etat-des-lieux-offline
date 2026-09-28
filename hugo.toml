@@ -1,0 +1,42 @@
+baseURL = "https://v20100t.github.io/etat-des-lieux-offline/"
+languageCode = "fr-FR"
+defaultContentLanguage = "fr"
+title = "État des lieux Offline"
+enableRobotsTXT = true
+summaryLength = 30
+
+paginate = 9
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[params]
+  # Nom affiché partout (logo, titres, pied de page)
+  marque = "État des lieux Offline"
+  slogan = "L'état des lieux dans votre poche. Sans compte, sans cloud, même sans réseau."
+  description = "Application d'état des lieux d'entrée et de sortie sur téléphone : fonctionne hors-ligne, photos horodatées, comparaison entrée/sortie, signature, rapport PDF. Payée une fois, vos données restent chez vous."
+
+  # Contact (à compléter)
+  email = "contact@exemple.fr"
+
+  # Démo en ligne de l'application (laisser vide pour masquer le bouton)
+  demoUrl = ""
+
+  # Vidéo YouTube : uniquement l'identifiant (ex. "dQw4w9WgXcQ"). Vide = emplacement « bientôt ».
+  videoYoutubeId = ""
+
+  # ---- Paiement Lemon Squeezy : coller ici les liens « Checkout » (Store > Products > Share) ----
+  # Laisser vide tant que ce n'est pas prêt : le bouton ouvre alors un e-mail.
+  [params.paiement]
+    particulierAn = ""
+    particulierVie = ""
+    pro = ""
