@@ -57,13 +57,13 @@ SCENES = [
         "id": "09_envoi", "type": "carte",
         "titre": "Envoyé aux deux parties",
         "sous": "Chacun répond « Bien reçu, OK ».\n10 jours pour demander un complément.",
-        "voix": "Envoyez-le aux deux parties : chacun répond, bien reçu, OK. Le locataire a ensuite dix jours pour demander un complément.",
+        "voix": "Envoyez-le aux deux parties, directement depuis le téléphone : chacun répond, bien reçu, OK. Le locataire a ensuite dix jours pour demander un complément.",
     },
     {
         "id": "10_outro", "type": "carte",
         "titre": "État des lieux Offline",
         "sous": "50 € une fois, ou 5 € par an.\nSans compte. Sans cloud. Même sans réseau.",
-        "voix": "État des lieux Offline. Cinquante euros une fois, ou cinq euros par an. Sans compte, sans cloud, même sans réseau.",
+        "voix": "État des lieux Offline. Cinquante euros une fois pour toutes, ou cinq euros l'année. Sans compte, sans cloud, et même sans réseau.",
     },
 ]
 

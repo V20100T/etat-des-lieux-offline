@@ -31,7 +31,10 @@ paginate = 9
   # Démo en ligne de l'application (laisser vide pour masquer le bouton)
   demoUrl = ""
 
-  # Vidéo YouTube : uniquement l'identifiant (ex. "dQw4w9WgXcQ"). Vide = emplacement « bientôt ».
+  # Vidéo hébergée sur le site (prioritaire), générée par video/3_montage.py
+  videoFichier = "video/demo.mp4"
+  videoAffiche = "video/affiche.jpg"
+  # Sinon vidéo YouTube : uniquement l'identifiant. Vide = emplacement « bientôt ».
   videoYoutubeId = ""
 
   # ---- Paiement Lemon Squeezy : coller ici les liens « Checkout » (Store > Products > Share) ----

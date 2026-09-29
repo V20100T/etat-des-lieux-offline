@@ -19,9 +19,14 @@ Tout le contenu est **en français**.
 - Le comparatif avec les « applications classiques » reste prudent et vérifiable (publicité comparative) : ne pas citer de concurrents ni affirmer de faits invérifiables.
 - Livraison : instance de l'app personnalisée, déployée à la main par le vendeur, lien envoyé sous 24 h ouvrées.
 
-## À faire côté app (promis sur le site)
-- Bouton « Envoyer aux deux parties » : e-mail prérempli avec le PDF, la consigne « répondre Bien reçu, OK » et le rappel du délai de 10 jours.
-- Personnalisation de marque (nom et logo) par instance.
+## Côté app
+- L'envoi aux deux parties se fait avec le partage natif du téléphone (PDF, ZIP) : ça fonctionne déjà, pas de développement nécessaire.
+- Reste promis sur le site : personnalisation de marque (nom et logo) par instance.
+
+## Vidéo
+- `video/` : scripts qui génèrent `sortie/demo.mp4` (voir `video/README.md`). Voix neuronale fr-FR-DeniseNeural (edge-tts) par défaut. La voix Windows hors-ligne reste disponible en option.
+- Après régénération : copier `video/sortie/demo.mp4` vers `static/video/demo.mp4` (et régénérer `affiche.jpg`).
+- La synthèse vocale lit mal certains mots : éviter « par an » en fin de phrase (épelé A-N) et préférer « l'année ».
 
 ## Commandes
 - `hugo server` puis ouvrir http://localhost:1313/etat-des-lieux-offline/ · `hugo --gc --minify`

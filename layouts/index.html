@@ -165,7 +165,12 @@
     <p class="section-surtitre">En vidéo</p>
     <h2>Un état des lieux complet, en quelques minutes</h2>
     <div class="video">
-      {{ with $p.videoYoutubeId }}
+      {{ if $p.videoFichier }}
+      <video controls preload="none" playsinline poster="{{ $p.videoAffiche | relURL }}">
+        <source src="{{ $p.videoFichier | relURL }}" type="video/mp4">
+        Votre navigateur ne lit pas la vidéo : <a href="{{ $p.videoFichier | relURL }}">téléchargez-la</a>.
+      </video>
+      {{ else }}{{ with $p.videoYoutubeId }}
       <button class="video-lanceur" data-youtube="{{ . }}" aria-label="Lire la vidéo">
         <img src="https://i.ytimg.com/vi/{{ . }}/hqdefault.jpg" alt="" loading="lazy">
         <span class="video-play">{{ partial "icone.html" "play" }}</span>
@@ -176,7 +181,7 @@
         <span class="video-play">{{ partial "icone.html" "play" }}</span>
         <p>Vidéo de démonstration bientôt disponible</p>
       </div>
-      {{ end }}
+      {{ end }}{{ end }}
     </div>
   </div>
 </section>
